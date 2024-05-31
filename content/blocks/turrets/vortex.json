@@ -30,8 +30,8 @@
       "length": 200,
       "damage": 55,
       "knockback": 1,
-      "shootEffect": "shootLarge",
-      "smokeEffect": "smokeLarge",
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
       "hitEffect": "massiveExplosion",
       "pointEffectSpace": 20,
       "pointEffect": {
@@ -54,8 +54,8 @@
       "length": 200,
       "damage": 75,
       "knockback": 1,
-      "shootEffect": "shootLarge",
-      "smokeEffect": "smokeLarge",
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
       "hitEffect": "massiveExplosion",
       "pointEffectSpace": 20,
       "pointEffect": {
@@ -78,8 +78,8 @@
       "length": 200,
       "damage": 125,
       "knockback": 1,
-      "shootEffect": "shootLarge",
-      "smokeEffect": "smokeLarge",
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
       "hitEffect": "massiveExplosion",
       "pointEffectSpace": 20,
       "pointEffect": {
