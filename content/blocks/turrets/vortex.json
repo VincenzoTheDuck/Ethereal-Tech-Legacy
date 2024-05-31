@@ -26,15 +26,15 @@
   "shootSound": "shootBig",
   "ammoTypes": {
     "scrap": {
-      "type": "RailBulletType",
+      "type": "PointBulletType",
       "length": 200,
       "damage": 55,
       "knockback": 1,
       "shootEffect": "shootBig",
       "smokeEffect": "shootBigSmoke",
       "hitEffect": "massiveExplosion",
-      "pointEffectSpace": 20,
-      "pointEffect": {
+      "trailSpacing": 20,
+      "trailEffect": {
         "type": "ParticleEffect",
         "line": true,
         "particles": 1,
@@ -50,15 +50,15 @@
       }
     },
     "copper": {
-      "type": "RailBulletType",
+      "type": "PointBulletType",
       "length": 200,
       "damage": 75,
       "knockback": 1,
       "shootEffect": "shootBig",
       "smokeEffect": "shootBigSmoke",
       "hitEffect": "massiveExplosion",
-      "pointEffectSpace": 20,
-      "pointEffect": {
+      "trailSpacing": 20,
+      "trailEffect": {
         "type": "ParticleEffect",
         "line": true,
         "particles": 1,
@@ -74,15 +74,15 @@
       }
     },
     "surge-alloy": {
-      "type": "RailBulletType",
+      "type": "PointBulletType",
       "length": 200,
       "damage": 125,
       "knockback": 1,
       "shootEffect": "shootBig",
       "smokeEffect": "shootBigSmoke",
       "hitEffect": "massiveExplosion",
-      "pointEffectSpace": 20,
-      "pointEffect": {
+      "trailSpacing": 20,
+      "trailEffect": {
         "type": "ParticleEffect",
         "line": true,
         "particles": 1,
