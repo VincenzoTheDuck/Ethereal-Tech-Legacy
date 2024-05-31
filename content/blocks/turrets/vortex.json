@@ -45,8 +45,8 @@
         "lenTo": 20
         "colorFrom": "e0b28d",
         "colorTo": "9b928b00",
-        "sizeFrom": 1,
-        "sizeTo": 0
+        "strokeFrom": 1,
+        "strokeTo": 0
       }
     },
     "copper": {
@@ -69,8 +69,8 @@
         "lenTo": 20
         "colorFrom": "d99d73",
         "colorTo": "b8705c00",
-        "sizeFrom": 1,
-        "sizeTo": 0
+        "strokeFrom": 1,
+        "strokeTo": 0
       }
     },
     "surge-alloy": {
@@ -93,8 +93,8 @@
         "lenTo": 20
         "colorFrom": "fcf387",
         "colorTo": "d99f6b00",
-        "sizeFrom": 1,
-        "sizeTo": 0
+        "strokeFrom": 1,
+        "strokeTo": 0
       },
       "lightning": 3,
       "lightningLength": 9,
