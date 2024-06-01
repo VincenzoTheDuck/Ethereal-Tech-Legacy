@@ -16,11 +16,13 @@
       "type": "shootPattern",
       "shots": 15
     },
-    "dest": {
-      "type": "shootAlternate",
-      "barrels": 5,
-      "spread": 5
-    }
+    "dest": [
+      {
+        "type": "shootAlternate",
+        "barrels": 5,
+        "spread": 5
+      }
+    ]
   },
   "shootCone": 30,
   "shootY": 11,
