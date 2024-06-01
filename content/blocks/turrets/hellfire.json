@@ -1,7 +1,7 @@
 {
   "type": "powerTurret",
   "localizedName": "Hellfire",
-  "description": "A massive plasma turret. Launches blasts of plasma at nearby enemies.",
+  "description": "Fires blasts of plasma at nearby enemies.",
   "health": 250000,
   "armor": 10,
   "reload": 15,
@@ -18,9 +18,14 @@
     },
     "dest": [
       {
-        "type": "shootAlternate",
-        "barrels": 5,
-        "spread": 5
+        "type": "shootBarrel",
+        "barrels": [
+          -5, 0, 0,
+          -2.5, 0, 0,
+          0, 0, 0,
+          2.5, 0, 0,
+          5, 0, 0
+        ]
       }
     ]
   },
@@ -36,7 +41,9 @@
     "width": 16,
     "toColor": f68859,
     "shootEffect": "none",
-    "smokeEffect": "none"
+    "smokeEffect": "none",
+    "effect": "melting",
+    "effectDuration": 180
   },
   "liquidConsumed": 0.1,
   "consumes": {
