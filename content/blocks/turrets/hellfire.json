@@ -1,0 +1,58 @@
+{
+  "type": "powerTurret",
+  "localizedName": "Hellfire",
+  "description": "A massive plasma turret. Launches blasts of plasma at nearby enemies.",
+  "health": 250000,
+  "armor": 10,
+  "reload": 15,
+  "range": 120,
+  "recoil": 2.5,
+  "recoilTime": 40,
+  "inaccuracy": 12,
+  "shootY": 20,
+  "shoot": {
+    "type": "shootMulti",
+    "source": {
+      "type": "shootPattern",
+      "shots": 15
+    },
+    "dest": {
+      "type": "shootAlternate",
+      "barrels": 5,
+      "spread": 5
+    }
+  },
+  "shootCone": 30,
+  "shootY": 11,
+  "shake": 2.5,
+  "size": 6,
+  "shootSound": "shotgun",
+  "shootType": {
+    "type": "ShrapnelBulletType",
+    "length": 130,
+    "damage": 1750,
+    "width": 16,
+    "toColor": f68859,
+    "shootEffect": "none",
+    "smokeEffect": "none"
+  },
+  "liquidConsumed": 0.1,
+  "consumes": {
+    "power": 12
+  },
+  "requirements": [
+    "lead/2500",
+    "silicon/7500",
+    "graphite/15000",
+    "thorium/7500",
+    "surge-alloy/5000",
+    "titanium/10000"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "spectre",
+    "objectives": [
+      
+    ]
+  }
+}
