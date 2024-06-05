@@ -26,7 +26,7 @@
     "drawSize": 700,
     "hitSize": 7,
     "toColor": ffd27e,
-    "shootEffect": "shootInst",
+    "shootEffect": "instShoot",
     "smokeEffect": "smokeCloud",
     "effect": "melting",
     "effectDuration": 240
