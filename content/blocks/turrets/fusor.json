@@ -1,0 +1,53 @@
+{
+  "type": "powerTurret",
+  "localizedName": "Fusor",
+  "description": "Fires bursts of fusion-point plasma bolts at enemies.",
+  "health": 2500000,
+  "armor": 35,
+  "reload": 600,
+  "range": 400,
+  "recoil": 6,
+  "recoilTime": 150,
+  "shootY": 15,
+  "shoot": {
+    "type": "shootPattern",
+    "shots": 3,
+    "shotDelay", 10
+  },
+  "shootCone": 30,
+  "shootY": 11,
+  "shake": 5,
+  "size": 6,
+  "shootSound": "shotgun",
+  "shootType": {
+    "type": "LaserBulletType",
+    "length": 420,
+    "damage": 10000,
+    "drawSize": 700,
+    "hitSize": 7,
+    "toColor": ffd27e,
+    "shootEffect": "shootInst",
+    "smokeEffect": "smokeCloud",
+    "effect": "melting",
+    "effectDuration": 240
+  },
+  "liquidConsumed": 0.1,
+  "consumes": {
+    "power": 12
+  },
+  "requirements": [
+    "lead/10000",
+    "silicon/15000",
+    "graphite/35000",
+    "thorium/12000",
+    "surge-alloy/20000",
+    "titanium/15000"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "meltdown",
+    "objectives": [
+      
+    ]
+  }
+}
