@@ -12,6 +12,21 @@
   "shootCone": 30,
   "shake": 8,
   "size": 8,
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-wing",
+        "mirror": true,
+        "moveX": -2,
+        "moveY": 1,
+        "moveRot": 25,
+        "progress": "warmup",
+        "heatProgress": "warmup"
+      }
+    ]
+  },
   "shootSound": "bolt",
   "shootType": {
     "type": "BasicBulletType",
