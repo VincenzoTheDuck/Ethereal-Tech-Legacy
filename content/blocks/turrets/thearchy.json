@@ -12,6 +12,8 @@
   "shootCone": 30,
   "shake": 8,
   "size": 8,
+  "shootWarmupSpeed": 0.02,
+  "minWarmup": 0.95,
   "drawer": {
     "type": "DrawTurret",
     "parts": [
