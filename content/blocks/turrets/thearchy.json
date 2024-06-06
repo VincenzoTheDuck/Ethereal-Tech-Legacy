@@ -36,7 +36,7 @@
         "moveX": -0.5,
         "moveY": 0.5,
         "moveRot": -12,
-        "zOffset": -0.0002,
+        "layer": 48,
         "heatProgress": "warmup"
       },
       {
@@ -47,7 +47,7 @@
         "moveX": -0.5,
         "moveY": 0.5,
         "moveRot": -12,
-        "zOffset": -0.0001,
+        "layer": 49,
         "heatProgress": "warmup",
         "heatColor": ffd27e
       }
