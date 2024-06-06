@@ -12,9 +12,9 @@
     "type": "shootPattern",
     "shots": 3,
   },
-  "shake": 5,
+  "shake": 1,
   "size": 2,
-  "inaccuracy": 3,
+  "inaccuracy": 7,
   "shootSound": "laser",
   "liquidConsumed": 0.1,
   "consumes": {
