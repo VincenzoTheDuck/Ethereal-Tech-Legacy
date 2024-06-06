@@ -19,7 +19,6 @@
         "type": "RegionPart",
         "suffix": "-glow",
         "outline": false,
-        "mirror": true,
         "moveX": 0,
         "moveY": 0,
         "moveRot": 0,
@@ -31,9 +30,9 @@
         "type": "RegionPart",
         "suffix": "-wing",
         "mirror": true,
-        "moveX": -2,
-        "moveY": 1,
-        "moveRot": 25,
+        "moveX": -4,
+        "moveY": 1.5,
+        "moveRot": -12,
         "progress": "warmup"
       },
       {
@@ -41,9 +40,9 @@
         "suffix": "-wing-glow",
         "outline": false,
         "mirror": true,
-        "moveX": -2,
-        "moveY": 1,
-        "moveRot": 25,
+        "moveX": -4,
+        "moveY": 1.5,
+        "moveRot": -12,
         "progress": "warmup",
         "colorFrom": ffcd66ff,
         "colorTo": ffd27e
