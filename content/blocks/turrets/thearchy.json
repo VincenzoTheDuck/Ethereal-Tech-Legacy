@@ -7,7 +7,8 @@
   "reload": 120,
   "range": 400,
   "recoil": 10,
-  "recoilTime": 150,
+  "recoilTime": 180,
+  "rotateSpeed": 2
   "shootY": 15,
   "shootCone": 30,
   "shake": 8,
@@ -96,7 +97,7 @@
         },
         {
           "type": "ParticleEffect",
-          "particles": 3,
+          "particles": 35,
           "line": true
           "lenFrom": 3,
           "lenTo": 3,
