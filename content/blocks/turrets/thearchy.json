@@ -12,8 +12,8 @@
   "shootCone": 30,
   "shake": 8,
   "size": 8,
-  "shootWarmupSpeed": 0.02,
-  "minWarmup": 0.95,
+  "shootWarmupSpeed": 0.05,
+  "minWarmup": 0.75,
   "drawer": {
     "type": "DrawTurret",
     "parts": [
@@ -62,7 +62,7 @@
     "speed": 8,
     "lifetime": 50,
     "splashDamage": 5000,
-    "splashDamageRadius": 25,
+    "splashDamageRadius": 200,
     "backColor": ffcd66,
     "frontColor": ffd27e,
     "shootEffect": "instShoot",
@@ -75,7 +75,7 @@
         {
           "type": "WaveEffect",
           "sizeFrom": 0,
-          "sizeTo": 25,
+          "sizeTo": 200,
           "strokeFrom": 2,
           "strokeTo": 0,
            "interp": "circleOut",
@@ -83,21 +83,20 @@
           "colorFrom": ffd27e,
           "colorTo": ffd27e
         },
-        "smokeCloud",
         {
           "type": "ParticleEffect",
           "particles": 17,
-          "sizeFrom": 10,
+          "sizeFrom": 14,
           "sizeTo": 0,
            "interp": "circleOut",
           "lifetime": 185,
-          "length": 30
+          "length": 195
           "colorFrom": ffd27e,
           "colorTo": ffd27e
         },
         {
           "type": "ParticleEffect",
-          "particles": 21,
+          "particles": 3,
           "line": true
           "lenFrom": 3,
           "lenTo": 3,
@@ -105,7 +104,7 @@
           "strokeFrom": 0,
           "interp": "circleOut",
           "lifetime": 67,
-          "length": 45
+          "length": 225
           "colorFrom": ffd27e,
           "colorTo": ffd27e
         }
