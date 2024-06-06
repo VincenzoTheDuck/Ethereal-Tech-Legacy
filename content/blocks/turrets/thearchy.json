@@ -91,7 +91,7 @@
         {
           "type": "ParticleEffect",
           "particles": 45,
-          "sizeFrom": 14,
+          "sizeFrom": 20,
           "sizeTo": 0,
           "interp": "circleOut",
           "sizeInterp": "circleIn",
