@@ -17,8 +17,12 @@
   "velocityRnd": 0.1,
   "targetsAir": false,
   "shootSound": "shootBig",
+  "ammoPerShot": 6,
+  "shoot": {
+    "shots": 3,
+  },
   "ammoTypes": {
-    "sporePod": {
+    "spore-pod": {
       "type": "ArtilleryBulletType",
       "width": 12,
       "height": 12,
@@ -76,7 +80,7 @@
     "lead/200",
     "graphite/150",
     "titanium/100",
-    "sporePod/75"
+    "spore-pod/75"
   ],
   "category": "turret",
   "research": {
