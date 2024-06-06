@@ -3,10 +3,12 @@
   "description": "Fires bursts of 3 fusion-point plasma bolts at enemies.",
   "health": 2500000,
   "armor": 35,
-  "reload": 120,
+  "reload": 180,
   "range": 400,
   "recoil": 6,
   "recoilTime": 150,
+  "cooldownTime": 120,
+  "rotateSpeed": 1.5,
   "shootY": 15,
   "shoot": {
     "type": "shootPattern",
