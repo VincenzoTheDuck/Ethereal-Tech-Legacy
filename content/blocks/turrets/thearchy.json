@@ -8,6 +8,7 @@
   "range": 400,
   "recoil": 20,
   "recoilTime": 180,
+  "reload": 250,
   "rotateSpeed": 1.3
   "shootY": 15,
   "shootCone": 30,
