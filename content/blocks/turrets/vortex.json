@@ -36,6 +36,7 @@
       "trailSpacing": 20,
       "trailEffect": {
         "type": "ParticleEffect",
+        "useRotation": true,
         "line": true,
         "particles": 1,
         "length": 0,
@@ -60,6 +61,7 @@
       "trailSpacing": 20,
       "trailEffect": {
         "type": "ParticleEffect",
+        "useRotation": true,
         "line": true,
         "particles": 1,
         "length": 0,
@@ -84,6 +86,7 @@
       "trailSpacing": 20,
       "trailEffect": {
         "type": "ParticleEffect",
+        "useRotation": true,
         "line": true,
         "particles": 1,
         "length": 0,
