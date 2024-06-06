@@ -9,7 +9,7 @@
   "recoilTime": 180,
   "reload": 250,
   "rotateSpeed": 1.3
-  "shootY": 15,
+  "shootY": 5.5,
   "shootCone": 30,
   "shake": 10,
   "size": 8,
@@ -35,7 +35,7 @@
         "moveX": -0.5,
         "moveY": 0.5,
         "moveRot": -12,
-        "layer": 48,
+        "layer": 49.9998,
         "heatProgress": "warmup"
       },
       {
@@ -46,7 +46,7 @@
         "moveX": -0.5,
         "moveY": 0.5,
         "moveRot": -12,
-        "layer": 49,
+        "layer": 49.9999,
         "heatProgress": "warmup",
         "heatColor": ffd27e
       }
