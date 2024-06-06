@@ -1,5 +1,4 @@
 {
-  "type": "powerTurret",
   "localizedName": "Thearchy",
   "description": "An almost heavenly turret recovered from the old wars. Fires an explosive plasma bolt that causes huge fires.",
   "health": 5000000,
