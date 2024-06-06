@@ -1,5 +1,4 @@
 {
-  "type": "itemTurret",
   "localizedName": "Vortex",
   "description": "A modified and improved version of the Cyclone. Rapidly fires close-range bolts at all enemies.",
   "health": 10000,
