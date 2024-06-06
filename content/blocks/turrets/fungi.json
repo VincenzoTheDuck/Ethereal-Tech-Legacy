@@ -86,7 +86,7 @@
   "research": {
     "parent": "hail",
     "objectives": [
-      "sporePod"
+      "spore-pod"
     ]
   }
 }
