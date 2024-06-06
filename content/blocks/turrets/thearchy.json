@@ -1,0 +1,90 @@
+{
+  "type": "powerTurret",
+  "localizedName": "Thearchy",
+  "description": "Work in progress.",
+  "health": 5000000,
+  "armor": 45,
+  "reload": 120,
+  "range": 400,
+  "recoil": 10,
+  "recoilTime": 150,
+  "shootY": 15,
+  "shootCone": 30,
+  "shake": 8,
+  "size": 8,
+  "shootSound": "bolt",
+  "shootType": {
+    "type": "BasicBulletType",
+    "speed": 8,
+    "lifetime": 50,
+    "splashDamage": 5000,
+    "splashDamageRadius": 25,
+    "backColor": ffcd66,
+    "frontColor": ffd27e,
+    "shootEffect": "instShoot",
+    "smokeEffect": "smokeCloud",
+    "effect": "melting",
+    "effectDuration": 480,
+    "hitEffect": {
+      "type": "MultiEffect",
+      "effects": [
+        {
+          "type": "WaveEffect",
+          "sizeFrom": 0,
+          "sizeTo": 25,
+          "strokeFrom": 2,
+          "strokeTo": 0,
+           "interp": "circleOut",
+          "lifetime": 45,
+          "colorFrom": ffd27e,
+          "colorTo": ffd27e
+        },
+        "smokeCloud",
+        {
+          "type": "ParticleEffect",
+          "particles": 17,
+          "sizeFrom": 10,
+          "sizeTo": 0,
+           "interp": "circleOut",
+          "lifetime": 185,
+          "length": 30
+          "colorFrom": ffd27e,
+          "colorTo": ffd27e
+        },
+        {
+          "type": "ParticleEffect",
+          "particles": 21,
+          "line": true
+          "lenFrom": 3,
+          "lenTo": 3,
+          "strokeFrom": 2,
+          "strokeFrom": 0,
+          "interp": "circleOut",
+          "lifetime": 67,
+          "length": 45
+          "colorFrom": ffd27e,
+          "colorTo": ffd27e
+        }
+      ]
+    },
+    "despawnHit": true
+  },
+  "liquidConsumed": 0.1,
+  "consumes": {
+    "power": 35
+  },
+  "requirements": [
+    "copper/50000",
+    "silicon/45000",
+    "phaseFabric/55000",
+    "thorium/35000",
+    "surge-alloy/25000",
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "meltdown",
+    "objectives": [
+      
+    ]
+  }
+}
