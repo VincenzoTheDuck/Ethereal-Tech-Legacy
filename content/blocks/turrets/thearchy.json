@@ -15,6 +15,13 @@
   "shootSound": "bolt",
   "shootType": {
     "type": "BasicBulletType",
+    "width": 14,
+    "height": 20,
+    "trailLength": 30,
+    "trailWidth": 4,
+    "trailColor": ffcd66,
+    "incendAmount": 10,
+    "incendSpread": 17,
     "speed": 8,
     "lifetime": 50,
     "splashDamage": 5000,
