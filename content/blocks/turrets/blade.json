@@ -1,0 +1,35 @@
+{
+  "localizedName": "Blade",
+  "description": "Shoots 3 beams of concentrated plasma.",
+  "health": 1200,
+  "armor": 5,
+  "reload": 120,
+  "range": 185,
+  "recoil": 1.5,
+  "recoilTime": 150,
+  "shootY": 15,
+  "shoot": {
+    "type": "shootPattern",
+    "shots": 3,
+  },
+  "shake": 5,
+  "size": 2,
+  "inaccuracy": 3,
+  "shootSound": "laser",
+  "liquidConsumed": 0.1,
+  "consumes": {
+    "power": 2
+  },
+  "requirements": [
+    "lead/200",
+    "silicon/375",
+    "graphite/450",
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "arc",
+    "objectives": [
+      
+    ]
+  }
+}
