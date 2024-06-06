@@ -7,11 +7,13 @@ const fusor = extend(PowerTurret, "fusor", {});
 const thearchy = extend(PowerTurret, "thearchy", {});
 
 const bladeShoot = new Effect(20, e => {
-  Draw.color(Color.white, Color.valueOf("989aa4"), e.fin());
-
-  Drawf.tri(e.x, e.y, 6, 60 * e.fout(), e.rotation-75);
-  Drawf.tri(e.x, e.y, 6, 60 * e.fout(), e.rotation);
-  Drawf.tri(e.x, e.y, 6, 60 * e.fout(), e.rotation+75);
+  	Draw.color(Color.white, Color.valueOf("989aa4"), e.fin());
+	
+  	const hl = new Floatc2({get: function(x, y){
+  		Fill.poly(e.x + x, e.y + y, 3, e.fout() * 9, e.rotation+Mathf.random(-180,180));
+  	}});
+	
+  	Angles.randLenVectors(e.id, 4, e.finpow() * 20.0, e.rotation, 180.0, hl);
 });
 
 const bladeBeam = extend(LaserBulletType, {
