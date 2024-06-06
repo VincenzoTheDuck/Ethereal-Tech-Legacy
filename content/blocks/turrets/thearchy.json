@@ -35,6 +35,7 @@
         "moveX": -0.5,
         "moveY": 0.5,
         "moveRot": -12,
+        "zOffset": -0.0002,
         "heatProgress": "warmup"
       },
       {
@@ -45,6 +46,7 @@
         "moveX": -0.5,
         "moveY": 0.5,
         "moveRot": -12,
+        "zOffset": -0.0001,
         "heatProgress": "warmup",
         "heatColor": ffd27e
       }
@@ -79,19 +81,20 @@
           "sizeTo": 200,
           "strokeFrom": 2,
           "strokeTo": 0,
-           "interp": "circleOut",
+          "interp": "circleOut",
           "lifetime": 45,
           "colorFrom": ffd27e,
           "colorTo": ffd27e
         },
         {
           "type": "ParticleEffect",
-          "particles": 17,
+          "particles": 45,
           "sizeFrom": 14,
           "sizeTo": 0,
-           "interp": "circleOut",
-          "lifetime": 185,
-          "length": 195
+          "interp": "circleOut",
+          "sizeInterp": "circleIn",
+          "lifetime": 250,
+          "length": 210
           "colorFrom": ffd27e,
           "colorTo": ffd27e
         },
@@ -102,9 +105,9 @@
           "lenFrom": 3,
           "lenTo": 3,
           "strokeFrom": 2,
-          "strokeFrom": 0,
+          "strokeTo": 0,
           "interp": "circleOut",
-          "lifetime": 67,
+          "lifetime": 70,
           "length": 225
           "colorFrom": ffd27e,
           "colorTo": ffd27e
