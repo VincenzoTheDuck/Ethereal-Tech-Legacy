@@ -17,13 +17,36 @@
     "parts": [
       {
         "type": "RegionPart",
+        "suffix": "-glow",
+        "outline": false,
+        "mirror": true,
+        "moveX": 0,
+        "moveY": 0,
+        "moveRot": 0,
+        "progress": "warmup",
+        "colorFrom": ffcd66ff,
+        "colorTo": ffd27e
+      },
+      {
+        "type": "RegionPart",
         "suffix": "-wing",
         "mirror": true,
         "moveX": -2,
         "moveY": 1,
         "moveRot": 25,
+        "progress": "warmup"
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing-glow",
+        "outline": false,
+        "mirror": true,
+        "moveX": -2,
+        "moveY": 1,
+        "moveRot": 25,
         "progress": "warmup",
-        "heatProgress": "warmup"
+        "colorFrom": ffcd66ff,
+        "colorTo": ffd27e
       }
     ]
   },
