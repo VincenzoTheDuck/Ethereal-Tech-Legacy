@@ -1,0 +1,88 @@
+{
+  "type": "itemTurret",
+  "localizedName": "Fungi",
+  "description": "Launches clumps of spore pods at ground enemies.",
+  "health": 1000,
+  "armor": 2,
+  "reload": 55,
+  "range": 250,
+  "recoil": 2,
+  "recoilTime": 20,
+  "inaccuracy": 3,
+  "shootY": 10,
+  "shootCone": 20,
+  "shootY": 11,
+  "shake": 0.4,
+  "size": 2,
+  "velocityRnd": 0.1,
+  "targetsAir": false,
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "sporePod": {
+      "type": "ArtilleryBulletType",
+      "width": 12,
+      "height": 12,
+      "splashDamageRadius": 13,
+      "splashDamage": 50
+      "knockback": 0.6,
+      "speed": 3,
+      "lifetime": 90,
+      "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          {
+            "type": "ParticleEffect",
+            "particles": 10,
+            "lifetime": 65,
+            "interp": "circleIn",
+            "cone": 55,
+            "length": 12,
+            "sizeFrom": 2,
+            "sizeTo": 0,
+            "colorFrom": f08dd5,
+            "colorTo": 985bb0ff,
+            "lightColor": 985bb0
+          },
+          {
+            "type": "ParticleEffect",
+            "particles": 10,
+            "lifetime": 17,
+            "line": true,
+            "interp": "circleIn",
+            "cone": 30,
+            "length": 18,
+            "lenFrom": 1,
+            "lenTo": 0,
+            "strokeFrom": 0.5,
+            "strokeTo": 0,
+            "colorFrom": f08dd5,
+            "colorTo": 985bb0ff,
+            "lightColor": 985bb0
+          }
+        ]
+      },
+      "smokeEffect": "smokeCloud",
+      "hitEffect": "massiveExplosion",
+      "trailEffect": "none",
+      "trailLength": 15,
+      "trailWidth": 6,
+      "trailColor": 985bb0,
+      "frontColor": f08dd5,
+      "backColor": 985bb0
+    }
+  },
+  "liquidConsumed": 0.1,
+  "requirements": [
+    "lead/200",
+    "graphite/150",
+    "titanium/100",
+    "sporePod/75"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "hail",
+    "objectives": [
+      "sporePod"
+    ]
+  }
+}
