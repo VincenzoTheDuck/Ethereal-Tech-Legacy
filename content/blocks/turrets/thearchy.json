@@ -76,7 +76,7 @@
   "requirements": [
     "copper/50000",
     "silicon/45000",
-    "phaseFabric/55000",
+    "phase-fabric/55000",
     "thorium/35000",
     "surge-alloy/25000",
   ],
