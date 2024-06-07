@@ -7,6 +7,7 @@
   "range": 185,
   "recoil": 1.5,
   "recoilTime": 150,
+  "researchCostMultiplier": 0.05,
   "shootY": 15,
   "shoot": {
     "type": "shootPattern",
