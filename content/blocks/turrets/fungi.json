@@ -2,6 +2,7 @@
   "localizedName": "Fungi",
   "description": "Launches clumps of spore pods at ground enemies.",
   "health": 1000,
+  "researchCostMultiplier": 0.05,
   "armor": 2,
   "reload": 55,
   "range": 250,
