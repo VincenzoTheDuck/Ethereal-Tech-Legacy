@@ -22,9 +22,9 @@
     "power": 2
   },
   "requirements": [
-    "lead/200",
-    "silicon/375",
-    "graphite/450",
+    "lead/75",
+    "silicon/55",
+    "graphite/120",
   ],
   "category": "turret",
   "research": {
