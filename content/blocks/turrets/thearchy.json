@@ -2,6 +2,7 @@
   "localizedName": "Thearchy",
   "description": "A powerful weapon recovered from the old wars. Fires an explosive plasma bolt that causes huge fires.",
   "health": 5000000,
+  "researchCostMultiplier": 0.1,
   "armor": 45,
   "reload": 120,
   "range": 400,
