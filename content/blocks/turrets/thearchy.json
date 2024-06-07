@@ -50,6 +50,55 @@
         "layer": 49.9999,
         "heatProgress": "warmup",
         "heatColor": ffd27e
+      },
+      {
+        "type": "ShapePart",
+        "circle": true,
+        "hollow": true,
+        "y": 5.5,
+        "progress": "warmup",
+        "color": ffd27e,
+        "stroke": 0,
+        "strokeTo": 1.6,
+        "radius": 9
+      },
+      {
+        "type": "ShapePart",
+        "sides": 6,
+        "hollow": true,
+        "y": 5.5,
+        "progress": "warmup",
+        "color": ffd27e,
+        "stroke": 0,
+        "strokeTo": 1.6,
+        "radius": 8,
+        "rotSpeed": 3
+      },
+      {
+        "type": "ShapePart",
+        "sides": 6,
+        "hollow": true,
+        "y": 5.5,
+        "progress": "warmup",
+        "color": ffd27e,
+        "stroke": 0,
+        "strokeTo": 1.6,
+        "radius": 10,
+        "rotSpeed": -3
+      },
+      {
+        "type": "HaloPart",
+        "shapes": 6,
+        "hollow": true,
+        "y": 5.5,
+        "progress": "warmup",
+        "color": ffd27e,
+        "triLength": 0,
+        "triLengthTo": 2,
+        "radius": 12,
+        "rotSpeed": 1.5,
+        "shapeRotation": 180,
+        "haloRotation": 180
       }
     ]
   },
