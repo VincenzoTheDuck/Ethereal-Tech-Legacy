@@ -72,7 +72,7 @@
         "stroke": 0,
         "strokeTo": 1.6,
         "radius": 8,
-        "rotSpeed": 3
+        "rotateSpeed": 3
       },
       {
         "type": "ShapePart",
@@ -84,7 +84,7 @@
         "stroke": 0,
         "strokeTo": 1.6,
         "radius": 10,
-        "rotSpeed": -3
+        "rotateSpeed": -3
       },
       {
         "type": "HaloPart",
@@ -96,7 +96,7 @@
         "triLength": 0,
         "triLengthTo": 2,
         "radius": 12,
-        "rotSpeed": 1.5,
+        "rotateSpeed": 1.5,
         "shapeRotation": 180,
         "haloRotation": 180
       }
