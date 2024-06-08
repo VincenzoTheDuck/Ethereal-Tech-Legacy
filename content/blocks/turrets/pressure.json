@@ -7,7 +7,7 @@
   "liquidCapacity": 35,
   "armor": 3,
   "range": 100,
-  "recoil": 3,
+  "recoil": 0.04,
   "recoilTime": 20,
   "inaccuracy": 6,
   "shootY": 10,
@@ -21,7 +21,7 @@
     "steam": {
       "type": "ContinuousFlameBulletType",
       "length": 110,
-      "damage": 15
+      "damage": 0.2
       "knockback": 1.2,
       "pierce": false,
       "buildingDamageMultiplier": 0.65,
@@ -36,6 +36,18 @@
       ]
     }
   },
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-wing",
+        "moveX": 0.6,
+        "moveRot": 15,
+        "mirror": true
+      }
+    ]
+  },
   "requirements": [
     "graphite/75",
     "titanium/100",
@@ -43,9 +55,9 @@
   ],
   "category": "turret",
   "research": {
-    "parent": "hail",
+    "parent": "wave",
     "objectives": [
-      "spore-pod"
+      "boiler"
     ]
   }
 }
