@@ -85,30 +85,18 @@
         "strokeTo": 1.6,
         "radius": 10,
         "rotateSpeed": -3
-      },
-      {
-        "type": "HaloPart",
-        "shapes": 6,
-        "hollow": true,
-        "y": 11,
-        "progress": "warmup",
-        "color": ffd27e,
-        "triLength": 0,
-        "triLengthTo": 2,
-        "radius": 12,
-        "rotateSpeed": 1.5,
-        "shapeRotation": 180,
-        "haloRotation": 180
       }
     ]
   },
   "shootSound": "bolt",
   "shootType": {
     "type": "BasicBulletType",
-    "width": 30,
+    "sprite": "circle-bullet",
+    "width": 40,
     "height": 40,
+    "shrinkY": 0,
     "trailLength": 30,
-    "trailWidth": 12,
+    "trailWidth": 20,
     "trailColor": ffcd66,
     "incendAmount": 20,
     "incendSpread": 45,
