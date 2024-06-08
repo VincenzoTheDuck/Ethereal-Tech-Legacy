@@ -31,7 +31,7 @@
         "reverse": true,
         "color": 9a9dbf,
         "alpha": 0.8,
-        "particles": 10,
+        "particles": 20,
         "particleSize": 3,
         "particleRad": 10,
         "particleLife": 180,
