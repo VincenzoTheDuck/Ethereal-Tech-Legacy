@@ -15,7 +15,7 @@
     ],
     "liquid": "water/0.2"
   },
-  "outputLiquid": "steam/0.2"
+  "outputLiquid": "vincents-mindustry-mod-steam/0.2"
   "boostScale": 0.16,
   "requirements": [
     "titanium/75",
