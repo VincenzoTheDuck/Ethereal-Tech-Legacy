@@ -22,7 +22,7 @@
     "silicon/55",
     "graphite/120",
   ],
-  "category": "production",
+  "category": "crafting",
   "research": {
     "parent": "combustion-generator",
     "objectives": [
