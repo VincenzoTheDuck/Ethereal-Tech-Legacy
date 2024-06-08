@@ -4,6 +4,7 @@
   "description": "Fires a continuous jet of pressurized steam at enemies.",
   "health": 1900,
   "researchCostMultiplier": 0.05,
+  "liquidCapacity": 35,
   "armor": 3,
   "range": 100,
   "recoil": 3,
@@ -16,9 +17,6 @@
   "size": 2,
   "shootSound": "none",
   "loopSound": "torch",
-  "consumes": {
-    "liquid": 0.08
-  },
   "ammoTypes": {
     "steam": {
       "type": "ContinuousFlameBulletType",
