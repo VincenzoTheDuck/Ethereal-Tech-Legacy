@@ -5,6 +5,7 @@
   "health": 1500,
   "armor": 1,
   "researchCostMultiplier": 0.05,
+  "liquidCapacity": 30
   "size": 3,
   "hasPower": false,
   "hasLiquids": true,
