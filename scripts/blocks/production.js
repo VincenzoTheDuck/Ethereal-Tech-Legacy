@@ -1,1 +1,1 @@
-const boiler = extend(AttributeCrafter, "boiler", {});
+// const boiler = extend(AttributeCrafter, "boiler", {});
