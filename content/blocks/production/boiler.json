@@ -11,7 +11,7 @@
   "outputsLiquid": true,
   "consumes": {
     "items": [
-      "coal"
+      "coal/1"
     ],
     "liquid": "water/0.2"
   },
