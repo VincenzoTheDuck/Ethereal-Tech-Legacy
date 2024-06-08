@@ -28,6 +28,7 @@
       "hitEffect": "hitLancer",
       "status": "wet",
       "statusDuration": 120,
+      "drawFlare": false,
       "colors": [
         9a9dbf85,
         9a9dbf55,
