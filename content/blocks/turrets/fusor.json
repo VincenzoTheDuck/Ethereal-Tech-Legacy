@@ -35,8 +35,8 @@
     ],
     "shootEffect": "instShoot",
     "smokeEffect": "smokeCloud",
-    "effect": "melting",
-    "effectDuration": 240
+    "status": "melting",
+    "statusDuration": 240
   },
   "liquidConsumed": 0.1,
   "consumes": {
