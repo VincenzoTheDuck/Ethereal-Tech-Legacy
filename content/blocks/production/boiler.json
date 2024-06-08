@@ -15,6 +15,33 @@
     ],
     "liquid": "water/0.2"
   },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "liquid": "water"
+      },
+      {
+        "type": "DrawParticles",
+        "reverse": true,
+        "color": 9a9dbf,
+        "alpha": 0.8,
+        "particles": 10,
+        "particleSize": 3,
+        "particleRad": 10,
+        "particleLife": 180,
+        "particleSizeInterp": "circleOut"
+      },
+      {
+        "type": "DrawDefault",
+      }
+    ]
+  },
   "outputLiquid": "steam/0.2"
   "boostScale": 0.16,
   "requirements": [
