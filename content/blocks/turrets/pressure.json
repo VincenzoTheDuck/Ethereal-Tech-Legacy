@@ -47,7 +47,7 @@
         "moveX": 0.6,
         "moveY": 0.1,
         "moveRot": -13,
-        "layerOffset": 0.001,
+        "layerOffset": -0.001,
         "progress": "warmup"
       }
     ]
