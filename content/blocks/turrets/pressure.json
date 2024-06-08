@@ -1,0 +1,53 @@
+{
+  "type": "ContinuousLiquidTurret",
+  "localizedName": "Pressure",
+  "description": "Fires a continuous jet of pressurized steam at enemies.",
+  "health": 1900,
+  "researchCostMultiplier": 0.05,
+  "armor": 3,
+  "range": 100,
+  "recoil": 3,
+  "recoilTime": 20,
+  "inaccuracy": 6,
+  "shootY": 10,
+  "shootCone": 20,
+  "minWarmup": 0.5,
+  "shake": 0.1,
+  "size": 2,
+  "shootSound": "none",
+  "loopSound": "torch",
+  "consumes": {
+    "liquid": 0.08
+  },
+  "ammoTypes": {
+    "steam": {
+      "type": "ContinuousFlameBulletType",
+      "length": 110,
+      "damage": 15
+      "knockback": 1.2,
+      "pierce": false,
+      "buildingDamageMultiplier": 0.65,
+      "hitEffect": "hitLancer",
+      "status": "wet",
+      "statusDuration": 120,
+      "colors": [
+        9a9dbf85,
+        9a9dbf55,
+        9a9dbf30,
+        ffffff
+      ]
+    }
+  },
+  "requirements": [
+    "graphite/75",
+    "titanium/100",
+    "metaglass/75"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "hail",
+    "objectives": [
+      "spore-pod"
+    ]
+  }
+}
