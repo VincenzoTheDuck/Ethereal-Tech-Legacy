@@ -43,8 +43,10 @@
         "type": "DrawRegion",
         "suffix": "-wing",
         "moveX": 0.6,
-        "moveRot": 15,
-        "mirror": true
+        "moveRot": -15,
+        "mirror": true,
+        "layerOffset": 0.001,
+        "progress": "warmup"
       }
     ]
   },
