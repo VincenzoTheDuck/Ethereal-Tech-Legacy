@@ -1,4 +1,5 @@
 {
+  "type": "PowerTurret",
   "localizedName": "Fusor",
   "description": "Fires bursts of 3 fusion-point plasma bolts at enemies.",
   "health": 2500000,
