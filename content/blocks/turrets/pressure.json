@@ -40,11 +40,12 @@
     "type": "DrawTurret",
     "parts": [
       {
-        "type": "DrawRegion",
+        "type": "RegionPart",
         "suffix": "-wing",
-        "moveX": 0.6,
-        "moveRot": -15,
         "mirror": true,
+        "moveX": 0.6,
+        "moveY": 0.1,
+        "moveRot": -13,
         "layerOffset": 0.001,
         "progress": "warmup"
       }
