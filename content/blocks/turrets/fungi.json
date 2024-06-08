@@ -1,4 +1,5 @@
 {
+  "type": "ItemTurret",
   "localizedName": "Fungi",
   "description": "Launches clumps of spore pods at ground enemies.",
   "health": 1000,
