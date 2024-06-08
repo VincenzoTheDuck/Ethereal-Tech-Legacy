@@ -1,4 +1,5 @@
 {
+  "type": "AttributeCrafter",
   "localizedName": "Boiler [red](WIP)",
   "description": "Boils water into steam. More efficient in hot locations.",
   "health": 1500,
@@ -14,7 +15,7 @@
     ],
     "liquid": "water/0.2"
   },
-  "outputLiquid": "water/0.2"
+  "outputLiquid": "steam/0.2"
   "boostScale": 0.16,
   "requirements": [
     "titanium/75",
