@@ -1,0 +1,31 @@
+{
+  "localizedName": "Boiler [red](WIP)",
+  "description": "Boils water into steam. More efficient in hot locations.",
+  "health": 1500,
+  "armor": 1,
+  "researchCostMultiplier": 0.05,
+  "size": 3,
+  "hasPower": false,
+  "hasLiquids": true,
+  "outputsLiquid": true,
+  "consumes": {
+    "items": [
+      "coal"
+    ],
+    "liquid": "water/0.2"
+  },
+  "outputLiquid": "water/0.2"
+  "boostScale": 0.16,
+  "requirements": [
+    "titanium/75",
+    "silicon/55",
+    "graphite/120",
+  ],
+  "category": "production",
+  "research": {
+    "parent": "combustion-generator",
+    "objectives": [
+      "mechanical-pump"
+    ]
+  }
+}
