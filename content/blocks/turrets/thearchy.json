@@ -75,8 +75,8 @@
     "frontColor": ffd27e,
     "shootEffect": "instShoot",
     "smokeEffect": "smokeCloud",
-    "effect": "melting",
-    "effectDuration": 480,
+    "status": "melting",
+    "statusDuration": 480,
     "hitEffect": {
       "type": "MultiEffect",
       "effects": [
