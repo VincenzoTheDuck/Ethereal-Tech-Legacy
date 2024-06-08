@@ -1,11 +1,3 @@
-const fungi = extend(ItemTurret, "fungi", {});
-
-const vortex = extend(ItemTurret, "vortex", {});
-
-const fusor = extend(PowerTurret, "fusor", {});
-
-const thearchy = extend(PowerTurret, "thearchy", {});
-
 const bladeShoot = new Effect(20, e => {
   	Draw.color(Color.white, Color.valueOf("989aa4"), e.fin());
 	
