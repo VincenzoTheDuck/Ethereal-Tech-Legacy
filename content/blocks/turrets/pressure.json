@@ -10,7 +10,7 @@
   "recoil": 0.04,
   "recoilTime": 20,
   "inaccuracy": 6,
-  "shootY": 10,
+  "shootY": 7.5,
   "shootCone": 20,
   "minWarmup": 0.5,
   "shake": 0.1,
@@ -33,7 +33,7 @@
         9a9dbf85,
         9a9dbf55,
         9a9dbf30,
-        ffffff
+        9a9dbf
       ]
     }
   },
