@@ -33,7 +33,7 @@
     "drawSize": 150,
     "lifetime": 25,
     "sideAngle": 0,
-    "shootEffect": "bladeShoot"
+    "shootEffect": "hitLancer"
   },
   "consumes": {
     "power": 8
