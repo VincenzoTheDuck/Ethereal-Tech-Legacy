@@ -1,4 +1,5 @@
 {
+  "type": "PowerTurret",
   "localizedName": "Blade",
   "description": "Shoots 3 beams of concentrated plasma.",
   "health": 1200,
@@ -18,6 +19,22 @@
   "inaccuracy": 7,
   "shootSound": "laser",
   "liquidConsumed": 0.1,
+  "shootType": {
+    "type": "LaserBulletType",
+    "length": 190,
+    "colors": [
+      68686875,
+      bababa45,
+      f0f0f020,
+      ffffff
+    ],
+    "damage": 75,
+    "hitSize": 1.5,
+    "drawSize": 150,
+    "lifetime": 25,
+    "sideAngle": 0,
+    "shootEffect": "bladeShoot"
+  },
   "consumes": {
     "power": 8
   },
