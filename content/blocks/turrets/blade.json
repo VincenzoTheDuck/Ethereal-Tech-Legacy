@@ -19,7 +19,7 @@
   "shootSound": "laser",
   "liquidConsumed": 0.1,
   "consumes": {
-    "power": 2
+    "power": 8
   },
   "requirements": [
     "lead/75",
