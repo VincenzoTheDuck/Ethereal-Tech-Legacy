@@ -1,8 +1,4 @@
 {
   "type": "OreBlock",
-  "itemDrop": "quartz",
-  "hiddenOnPlanets": [
-    "erekir",
-    "serpulo"
-  ]
+  "itemDrop": "quartz"
 }
