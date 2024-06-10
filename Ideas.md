@@ -8,7 +8,23 @@
 - Quartz (Mined)
 - Silicon (Refined from quartz in quartz melting chamber)
 - Ruby (Mined and refined from aluminum and oxygen in oxidizer)
+- Uranium (Mined)
 - Liquids:
 - Water (Pumped and extracted from ground with reservoir pump)
 - Ferrocoolant (Refined from steel and water)
 - Oxygen (Produced in oxygen concentrator)
+- Blocks:
+- Iron Drill
+- Wind Turbine
+- Water Turbine
+- Iron Node
+- Blast Furnace
+- Quartz Melting Chamber
+- Oxidizer
+- Reservoir Pump
+- Ferrocoolant Mixer
+- Oxygen Concentrater
+- Crystal Drill
+- Ruby Laser Drill
+- Uranium Reactor
+- Fusion Reactor
