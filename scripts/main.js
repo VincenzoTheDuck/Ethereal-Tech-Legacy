@@ -1,1 +1,1 @@
-require("effects");
+require("campaign/crysola");
