@@ -1,9 +1,14 @@
 # New planet
 - Name: Crysola
 - Items:
-- <br>
-- Coal
-- Iron
-- Steel
-- Quartz
-- Silicon
+- Coal (Mined from ground)
+- Iron (Mined from ground)
+- Steel (Refined from iron and coal in blast furnace)
+- Aluminum (Mined)
+- Quartz (Mined)
+- Silicon (Refined from quartz in quartz melting chamber)
+- Ruby (Mined and refined from aluminum and oxygen in oxidizer)
+- Liquids:
+- Water (Pumped and extracted from ground with reservoir pump)
+- Ferrocoolant (Refined from steel and water)
+- Oxygen (Produced in oxygen concentrator)
