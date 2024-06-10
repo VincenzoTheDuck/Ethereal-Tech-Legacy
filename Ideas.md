@@ -1,6 +1,6 @@
 # New planet
 - Name: Crysola
-- Items:
+- Items: <br>
 - Coal
 - Iron
 - Steel
