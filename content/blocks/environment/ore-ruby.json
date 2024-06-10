@@ -1,8 +1,4 @@
 {
   "type": "OreBlock",
-  "itemDrop": "ruby",
-  "hiddenOnPlanets": [
-    "erekir",
-    "serpulo"
-  ]
+  "itemDrop": "ruby"
 }
