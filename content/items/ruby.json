@@ -2,6 +2,5 @@
   "type": "Item",
   "localizedName": "Ruby",
   "description": "A rare crystal. Used for building.",
-  "hardness": 2,
-  "tier": 2
+  "hardness": 3,
 }
