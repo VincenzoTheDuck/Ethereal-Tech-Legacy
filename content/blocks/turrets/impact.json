@@ -1,0 +1,64 @@
+{
+  "type": "ItemTurret",
+  "localizedName": "Impact",
+  "description": "Launches small nuclear missiles at ground enemies.",
+  "health": 25000,
+  "researchCostMultiplier": 0.05,
+  "armor": 5,
+  "reload": 55,
+  "range": 600,
+  "recoil": 3.5,
+  "recoilTime": 600,
+  "inaccuracy": 0,
+  "shootY": 10,
+  "shootCone": 20,
+  "shootY": 11,
+  "shake": 0.4,
+  "size": 5,
+  "targetsAir": false,
+  "shootSound": "missile",
+  "ammoPerShot": 8,
+  "ammoCapacity": 40,
+  "consumes": {
+    "coolant": {
+      "amount": 0.12
+    }
+  }
+  "ammoTypes": {
+    "thorium": {
+      "type": "ArtilleryBulletType",
+      "sprite": "missile-large",
+      "width": 12,
+      "height": 22,
+      "splashDamageRadius": 13,
+      "splashDamage": 50
+      "speed": 10,
+      "drag": -0.001,
+      "lifetime": 60,
+      "smokeEffect": "smokeCloud",
+      "hitEffect": "reactorExplosion",
+      "trailEffect": "colorSpark",
+      "trailRotation": true,
+      "trailInterval": 3,
+      "trailLength": 12,
+      "trailWidth": 3,
+      "trailColor": 985bb0,
+      "frontColor": f08dd5,
+      "backColor": 985bb0
+    }
+  },
+  "liquidConsumed": 0.1,
+  "requirements": [
+    "lead/200",
+    "graphite/150",
+    "titanium/100",
+    "spore-pod/75"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "ripple",
+    "objectives": [
+      "thorium"
+    ]
+  }
+}
