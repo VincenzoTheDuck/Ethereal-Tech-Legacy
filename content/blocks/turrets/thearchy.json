@@ -123,7 +123,10 @@
   },
   "liquidConsumed": 0.1,
   "consumes": {
-    "power": 35
+    "power": 35,
+    "coolant": {
+      "amount": 0.35
+    }
   },
   "requirements": [
     "copper/5000",
