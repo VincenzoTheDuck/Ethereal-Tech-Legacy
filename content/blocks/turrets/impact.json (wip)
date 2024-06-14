@@ -1,0 +1,97 @@
+{
+  "type": "ItemTurret",
+  "localizedName": "Impact",
+  "description": "Launches small nuclear missiles at ground enemies.",
+  "health": 25000,
+  "researchCostMultiplier": 0.05,
+  "armor": 5,
+  "reload": 55,
+  "range": 250,
+  "recoil": 3.5,
+  "recoilTime": 600,
+  "inaccuracy": 0,
+  "shootY": 10,
+  "shootCone": 20,
+  "shootY": 11,
+  "shake": 0.4,
+  "size": 2,
+  "targetsAir": false,
+  "shootSound": "shootBig",
+  "ammoPerShot": 8,
+  "ammoCapacity": 40,
+  "consumes": {
+    "coolant": {
+      "amount": 0.12
+    }
+  }
+  "ammoTypes": {
+    "thorium": {
+      "type": "ArtilleryBulletType",
+      "width": 4,
+      "height": 6,
+      "splashDamageRadius": 13,
+      "splashDamage": 50
+      "knockback": 0.6,
+      "speed": 4,
+      "drag": -0.001,
+      "lifetime": 90,
+      "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          {
+            "type": "ParticleEffect",
+            "particles": 10,
+            "lifetime": 65,
+            "interp": "circleOut",
+            "sizeInterp": "circleIn",
+            "cone": 55,
+            "length": 12,
+            "sizeFrom": 2,
+            "sizeTo": 0,
+            "colorFrom": f08dd5,
+            "colorTo": 985bb0ff,
+            "lightColor": 985bb0
+          },
+          {
+            "type": "ParticleEffect",
+            "particles": 10,
+            "lifetime": 17,
+            "line": true,
+            "interp": "circleIn",
+            "cone": 30,
+            "length": 18,
+            "lenFrom": 1,
+            "lenTo": 0,
+            "strokeFrom": 0.5,
+            "strokeTo": 0,
+            "colorFrom": f08dd5,
+            "colorTo": 985bb0ff,
+            "lightColor": 985bb0
+          }
+        ]
+      },
+      "smokeEffect": "smokeCloud",
+      "hitEffect": "massiveExplosion",
+      "trailEffect": "none",
+      "trailLength": 15,
+      "trailWidth": 2,
+      "trailColor": 985bb0,
+      "frontColor": f08dd5,
+      "backColor": 985bb0
+    }
+  },
+  "liquidConsumed": 0.1,
+  "requirements": [
+    "lead/200",
+    "graphite/150",
+    "titanium/100",
+    "spore-pod/75"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "ripple",
+    "objectives": [
+      "thorium"
+    ]
+  }
+}
