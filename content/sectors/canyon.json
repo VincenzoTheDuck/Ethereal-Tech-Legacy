@@ -1,0 +1,9 @@
+{
+  "sector": 11,
+  "planet": "crysola",
+  "difficulty": 1,
+  "overrideLaunchDefaults": true,
+  "addStartingItems": true,
+  "captureWave": 10,
+  "alwaysUnlocked": true
+}
