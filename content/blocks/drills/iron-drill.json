@@ -7,15 +7,15 @@
   "researchCostMultiplier": 0.05,
   "tier": 2,
   "size": 2,
-  "drillTime": 385
+  "drillTime": 200,
   "hasPower": true,
   "drawRim": true,
   "consumes": {
     "power": 0.25
   },
   "updateEffect": "pulverize",
-  "updateEffectChance": 0.01,
-  "drillEffect": "mineBig",
+  "updateEffectChance": 0.04,
+  "drillEffect": "mineHuge",
   "liquidBoostIntensity": 0.79,
   "requirements": [
     "iron/20"
