@@ -16,7 +16,7 @@
       },
       {
         "type": "DrawBlurSpin",
-        "blurRegion": "-rotator",
+        "suffix": "-rotator",
         "blurThresh": 0.01
       }
     ]
