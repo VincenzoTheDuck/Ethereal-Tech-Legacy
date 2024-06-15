@@ -1,0 +1,22 @@
+{
+  "type": "CoreBlock",
+  "localizedName": "Core: Fragment",
+  "description": "A small, armored core.",
+  "health": 10000,
+  "armor": 5,
+  "itemCapacity": 5000
+  "size": 3,
+  "isFirstTier": true,
+  "requirements": [
+    "iron/2000",
+    "silicon/1500",
+  ],
+  "unitType": "gamma",
+  "category": "crafting",
+  "research": {
+    "root": true,
+    "name": @crysola-techtree,
+    "planet": "crysola"
+  },
+  "alwaysUnlocked": true
+}
