@@ -23,7 +23,7 @@
   },
   "ambientSound": "torch",
   "ambientSoundVolume": 0.2,
-  "generateEffect": "turbineGenerate",
+  "generateEffect": "turbinegenerate",
   "effectChance": 0.03
   "displayEfficiency": false,
   "minEfficiency": 8.9999,
