@@ -1,0 +1,63 @@
+{
+  "type": "ItemTurret",
+  "localizedName": "Shredder",
+  "description": "Shoots a flurry of molten metal sparks.",
+  "health": 2300,
+  "armor": 2,
+  "reload": 4,
+  "range": 120,
+  "recoil": 0.6,
+  "researchCostMultiplier": 0.05,
+  "shake": 0.1,
+  "size": 3,
+  "shootSound": "flame",
+  "liquidConsumed": 0.1,
+  "targetAir": false,
+  "ammoTypes": {
+    "titanium": {
+      "type": "BulletType",
+      "hitSize": 14,
+      "lifetime": 18,
+      "hittable": false,
+      "pierce": true,
+      "collidesAir": false,
+      "damage": 85,
+      "statusEffect": "melting",
+      "statusDuration": 240,
+      "shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 14,
+        "line": true
+        "lenFrom": 2,
+        "lenTo": 0,
+        "strokeFrom": 1.2,
+        "strokeTo": 1.2,
+        "interp": "circleOut",
+        "lifetime": 30,
+        "length": 135
+        "colorFrom": ffffff,
+        "colorTo": 80a9ff
+      },
+      "despawnEffect": "none",
+      "hitEffect": "hitLancer"
+    }
+  },
+  "consumes": {
+    "coolant": {
+      "amount": 0.05
+    }
+  },
+  "requirements": [
+    "titanium/75",
+    "silicon/55",
+    "graphite/120",
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "scorch",
+    "objectives": [
+      "titanium",
+      "silicon"
+    ]
+  }
+}
