@@ -15,7 +15,7 @@
   "category": "crafting",
   "research": {
     "root": true,
-    "name": @crysola-techtree,
+    "name": "crysola-techtree",
     "planet": "crysola"
   },
   "alwaysUnlocked": true
