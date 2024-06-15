@@ -21,7 +21,14 @@
       }
     ]
   },
-  "powerProduction": 1.5
+  "ambientSound": "torch",
+  "ambientSoundVolume": 0.2,
+  "generateEffect": "turbineGenerate",
+  "effectChance": 0.03
+  "displayEfficiency": false,
+  "minEfficiency": 8.9999,
+  "displayEfficiencyScale": 0.1111,
+  "powerProduction": 0.3333,
   "attribute": "steam",
   "requirements": [
     "iron/35"
