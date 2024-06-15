@@ -5,6 +5,7 @@
   "health": 350,
   "armor": 0,
   "researchCostMultiplier": 0.05,
+  "tier": 2,
   "size": 2,
   "drillTime": 550
   "hasPower": true,
