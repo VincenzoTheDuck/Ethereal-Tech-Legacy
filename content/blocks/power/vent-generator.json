@@ -26,9 +26,9 @@
   "generateEffect": "turbinegenerate",
   "effectChance": 0.03
   "displayEfficiency": false,
-  "minEfficiency": 8.9999,
-  "displayEfficiencyScale": 0.1111,
-  "powerProduction": 0.3333,
+  "minEfficiency": 8.99999,
+  "displayEfficiencyScale": 0.11111,
+  "powerProduction": 0.33331,
   "attribute": "steam",
   "requirements": [
     "iron/35"
