@@ -1,7 +1,7 @@
 {
   "type": "Duct",
   "localizedName": "Air Tube",
-  "description": "Transports items quickly.",
+  "description": "Transports items quickly. Does not accept non-air tube inputs from the side.",
   "health": 50,
   "armor": 0,
   "researchCostMultiplier": 0.05,
