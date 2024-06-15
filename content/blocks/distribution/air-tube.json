@@ -5,7 +5,8 @@
   "health": 50,
   "armor": 0,
   "researchCostMultiplier": 0.05,
-  "speed": 2.5
+  "speed": 2.5,
+  "armored": true,
   "requirements": [
     "iron/1",
   ],
