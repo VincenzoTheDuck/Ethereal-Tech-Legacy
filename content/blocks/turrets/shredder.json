@@ -36,8 +36,10 @@
         "lifetime": 30,
         "length": 135
         "colorFrom": ffffff,
-        "colorTo": 80a9ff
+        "colorTo": 80a9ff,
+        "cone": 15
       },
+      "smokeEffect": "none",
       "despawnEffect": "none",
       "hitEffect": "hitLancer"
     }
