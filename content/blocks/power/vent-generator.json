@@ -1,0 +1,36 @@
+{
+  "type": "ThermalGenerator",
+  "localizedName": "Vent Generator",
+  "description": "Produces power from geothermal vents.",
+  "health": 500,
+  "armor": 0,
+  "researchCostMultiplier": 0.05,
+  "size": 3,
+  "hasPower": true,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawBlurSpin",
+        "blurRegion": "-rotator",
+        "blurThresh": 0.01
+      }
+    ]
+  },
+  "powerProduction": 1.5
+  "attribute": "steam",
+  "requirements": [
+    "iron/35"
+  ],
+  "category": "power",
+  "research": {
+    "parent": "core-fragment",
+    "objectives": [
+      
+    ]
+  }
+}
