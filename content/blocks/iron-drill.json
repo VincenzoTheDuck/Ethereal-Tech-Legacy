@@ -1,0 +1,30 @@
+{
+  "type": "Drill",
+  "localizedName": "Iron Drill",
+  "description": "Drills items at a slow rate. Requires power",
+  "health": 350,
+  "armor": 0,
+  "researchCostMultiplier": 0.05,
+  "size": 2,
+  "drillTime": 550
+  "hasPower": true,
+  "drawRim": true,
+  "consumes": {
+    "power": 0.25
+  },
+  "updateEffect": "pulverize",
+  "updateEffectChance": 0.01,
+  "drillEffect": "mineBig",
+  "liquidBoostIntensity": 0.79,
+  "requirements": [
+    "iron/20"
+  ],
+  "category": "production",
+  "research": {
+    "parent": "core-fragment",
+    "objectives": [
+      "vent-generator",
+      "iron-node"
+    ]
+  }
+}
