@@ -45,6 +45,7 @@
           "hitLancer",
           {
             "type": "WaveEffect",
+            "lifetime": 12,
             "sizeFrom": 0,
             "sizeTo": 10,
             "strokeFrom": 2,
@@ -83,6 +84,7 @@
         "lifetime": 23,
         "drag": 0.02,
         "hitEffect": "hitLancer",
+        "despawnEffect": "none",
         "despawnHit": true,
         "frontColor": f4f4f4,
         "backColor": c1c3d4
@@ -93,6 +95,7 @@
           "hitLancer",
           {
             "type": "WaveEffect",
+            "lifetime": 12,
             "sizeFrom": 0,
             "sizeTo": 10,
             "strokeFrom": 2,
