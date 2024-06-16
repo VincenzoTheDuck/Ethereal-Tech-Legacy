@@ -10,6 +10,7 @@
   "requirements": [
     "iron/1",
   ],
+  "bridgeReplacement": "iron-bridge",
   "category": "distribution",
   "research": {
     "parent": "iron-drill",
