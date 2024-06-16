@@ -1,0 +1,55 @@
+{
+  "localizedName": "Knif",
+  "template": "ErekirUnitType",
+  "outlineColor": "252525FF",
+  "armor": 1,
+  "health": 150,
+  "type": "tank",
+  "faceTarget": false,
+  "squareShape": true,
+  "treadFrames": 18,
+  "treadPullOffset": 5,
+  "treadRects": [
+    {
+      "x": -20,
+      "y": -25,
+      "width": 14,
+      "height": 51
+    }
+  ],
+  "singleTarget": false,
+  "omniMovement": false,
+  "rotateMoveFirst": true,
+  "rotateSpeed": 1.8,
+  "hitSize": 24,
+  "speed": 1,
+  "weapons": [
+    {
+      "name": "knif-weapon",
+      "layerOffset": 1,
+      "reload": 30,
+      "mirror": false,
+      "top": true,
+      "x": 0,
+      "y": 0,
+      "shootY": 16,
+      "shake": 2,
+      "rotate": true,
+      "rotateSpeed": 5,
+      "shootSound": "pew",
+      "shootCone": 20,
+      "bullet": {
+        "keepVelocity": true,
+        "damage": 10,
+        "type": "BasicBulletType",
+        "lifetime": 20,
+        "speed": 4,
+        "hitEffect": "hitSmall",
+        "despawnEffect": "none",
+        "despawnHit": true,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootBigSmoke"
+      }
+    }
+  ]
+}
