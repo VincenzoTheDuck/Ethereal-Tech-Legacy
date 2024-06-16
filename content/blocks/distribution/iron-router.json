@@ -5,7 +5,7 @@
   "health": 65,
   "regionRotated": 1,
   "armor": 0,
-  "researchCostMultiplier": 3,
+  "researchCostMultiplier": 0.3,
   "speed": 2.5,
   "solid": false,
   "requirements": [
