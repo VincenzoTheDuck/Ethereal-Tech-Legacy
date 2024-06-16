@@ -16,7 +16,7 @@
   "sectorSeed": 0,
   "startSector": 11,
   "sectorSize": 1,
-  "clearSectorOnLose": true,
+  "clearSectorOnLose": false,
   "allowSectorInvasion": false,
   "allowLaunchToNumbered": false,
   "cloudMesh": {
@@ -50,7 +50,6 @@
     "lead",
     "scrap",
     "graphite",
-    "coal",
     "titanium",
     "thorium",
     "silicon",
