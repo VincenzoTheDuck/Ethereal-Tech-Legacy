@@ -47,6 +47,7 @@
   },
   "hiddenItems": [
     "copper",
+    "silicon",
     "lead",
     "scrap",
     "graphite",
