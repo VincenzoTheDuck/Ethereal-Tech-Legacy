@@ -9,13 +9,18 @@
   "hasPower": false,
   "consumes": {
     "items": [
-      "coal/1",
-      "iron/2"
+      "coal/2",
+      "iron/1"
     ]
   },
   "outputItems": [
     "steel/1"
   ],
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "coalSmeltSmoke",
+  "updateEffectChance": 0.03,
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.07,
   "craftTime": 40,
   "drawer": {
     "type": "DrawMulti",
@@ -25,7 +30,9 @@
       },
       {
         "type": "DrawFade",
-        "suffix": "-glow"
+        "suffix": "-glow",
+        "alpha": 0.9,
+        "scale": 0.75
       },
       {
         "type": "DrawFlame",
