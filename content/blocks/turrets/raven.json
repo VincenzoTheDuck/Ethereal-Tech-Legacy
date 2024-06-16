@@ -1,7 +1,7 @@
 {
   "type": "PowerTurret",
   "localizedName": "Raven",
-  "description": "Charges and fires a powerful laser beam.",
+  "description": "Charges and fires a powerful energy beam.",
   "health": 1200,
   "armor": 2,
   "reload": 120,
@@ -21,6 +21,14 @@
   "liquidConsumed": 0.1,
   "shootType": {
     "type": "LaserBulletType",
+    "spawnBullets": [
+      {
+        "type": "LightningBulletType",
+        "lightningColor": ff795e,
+        "lightningLength": 95,
+        "lightningDamage": 20
+      }
+    ],
     "length": 190,
     "colors": [
       c85c5165,
