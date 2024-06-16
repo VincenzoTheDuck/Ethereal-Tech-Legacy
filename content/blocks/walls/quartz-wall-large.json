@@ -8,7 +8,7 @@
   "requirements": [
     "quartz/24",
   ],
-  "category": "walls",
+  "category": "defense",
   "research": {
     "parent": "quartz-wall-large",
     "objectives": [
