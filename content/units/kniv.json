@@ -1,5 +1,6 @@
 {
-  "localizedName": "Knif",
+  "localizedName": "Kniv",
+  "description": "A small assault tank armed with a small gun.",
   "template": "ErekirUnitType",
   "outlineColor": "252525FF",
   "armor": 1,
