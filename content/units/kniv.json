@@ -22,7 +22,7 @@
   "omniMovement": false,
   "rotateMoveFirst": true,
   "rotateSpeed": 1.8,
-  "hitSize": 24,
+  "hitSize": 12,
   "speed": 1,
   "weapons": [
     {
