@@ -52,11 +52,7 @@
         "type": "MultiEffect",
         "effects": [
           "shootBig",
-          {
-            "type": "WrapEffect",
-            "effect": "colorSpark",
-            "color": ffcd66
-          }
+          "pulverizeRed"
         ]
       },
       "smokeEffect": "shootBigSmoke",
