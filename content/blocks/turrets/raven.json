@@ -41,7 +41,7 @@
       "lenFrom": 2,
       "lenTo": 0,
       "strokeFrom": 1,
-      "strokeTo": 0.7,
+      "strokeTo": 0.3,
       "lifetime": 45,
       "cone": 180,
       "particles": 11,
@@ -51,8 +51,8 @@
       "type": "ParticleEffect",
       "colorFrom": ffa492,
       "colorTo": c85c5165,
-      "sizeFrom": 1.3,
-      "sizeTo": 0.3,
+      "sizeFrom": 0.4,
+      "sizeTo": 0.17,
       "lifetime": 55,
       "cone": 55,
       "particles": 11,
@@ -66,7 +66,7 @@
           "colorFrom": c85c5165,
           "colorTo": ffa492,
           "sizeFrom": 0,
-          "sizeTo": 2,
+          "sizeTo": 1,
           "lifetime": 30,
           "particles": 1,
           "length": 0
@@ -80,11 +80,11 @@
           "sizeInterp": "pow5Out",
           "lenFrom": 0,
           "lenTo": 2.3,
-          "strokeFrom": 0.7,
-          "strokeTo": 1.1
+          "strokeFrom": 0.3,
+          "strokeTo": 0.9
           "lifetime": 30,
           "particles": 7,
-          "length": 0,
+          "length": 25,
           "cone": 180
         }
       ]
