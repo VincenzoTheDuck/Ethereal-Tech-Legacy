@@ -12,7 +12,7 @@
     "silicon/1500",
   ],
   "unitType": "gamma",
-  "category": "crafting",
+  "category": "effect",
   "research": {
     "root": true,
     "name": "crysola-techtree",
