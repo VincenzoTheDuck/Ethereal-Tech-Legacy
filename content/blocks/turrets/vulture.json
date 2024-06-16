@@ -19,6 +19,7 @@
   "ammoTypes": {
     "iron": {
       "type": "ArtilleryBulletType",
+      "homingPower": 0.11,
       "width": 6,
       "height": 6,
       "splashDamageRadius": 30,
@@ -40,7 +41,8 @@
         "lightningLength": 8,
         "lightningColor": ffcd66,
         "speed": 3,
-        "lifetime": 44
+        "lifetime": 44,
+        "homingPower": 0.09
       },
       "fragBullets": 5,
       "knockback": 0.6,
@@ -59,8 +61,6 @@
       },
       "smokeEffect": "shootBigSmoke",
       "hitEffect": "flakExplosion",
-      "trailLength": 15,
-      "trailWidth": 2
     }
   },
   "consumes": {
