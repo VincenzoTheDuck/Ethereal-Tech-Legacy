@@ -1,0 +1,68 @@
+{
+  "type": "PowerTurret",
+  "localizedName": "Vulture",
+  "description": "Fires long-range charged homing cluster shells at ground enemies. Requires power.",
+  "health": 2000,
+  "armor": 2,
+  "reload": 75,
+  "cooldownTime": 50,
+  "range": 220,
+  "recoil": 2,
+  "recoilTime": 100,
+  "researchCostMultiplier": 0.05,
+  "shootY": 4,
+  "shake": 2,
+  "size": 3,
+  "inaccuracy": 1,
+  "velocityInaccuracy": 0.06
+  "shootSound": "shootBig",
+  "ammoTypes": {
+    "iron": {
+      "type": "ArtilleryBulletType",
+      "width": 6,
+      "height": 6,
+      "splashDamageRadius": 30,
+      "splashDamage": 60,
+      "damage": 75
+      "knockback": 0.6,
+      "speed": 4,
+      "lifetime": 50,
+      "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          "shootBig",
+          {
+            "type": "WrapEffect",
+            "effect": "colorSpark",
+            "color": ffcd66
+          }
+        ]
+      },
+      "smokeEffect": "shootBigSmoke",
+      "hitEffect": "massiveExplosion",
+      "trailLength": 15,
+      "trailWidth": 2,
+      "trailColor": 985bb0,
+      "frontColor": f08dd5,
+      "backColor": 985bb0
+    }
+  },
+  "consumes": {
+    "power": 4,
+    "coolant": {
+      "amount": 0.12
+    }
+  },
+  "requirements": [
+    "steel/100",
+    "quartz/40",
+    "ruby/55"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "splinter",
+    "objectives": [
+      "ruby"
+    ]
+  }
+}
