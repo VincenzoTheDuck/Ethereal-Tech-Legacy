@@ -8,7 +8,7 @@
   "size": 3,
   "isFirstTier": true,
   "requirements": [
-    "iron/2000",
+    "steel/2000",
     "silicon/1500",
   ],
   "unitType": "gamma",
