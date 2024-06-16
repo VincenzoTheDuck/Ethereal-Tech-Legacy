@@ -13,7 +13,9 @@
       "iron/2"
     ]
   },
-  "outputItem": "steel/1"
+  "outputItems": [
+    "steel/1"
+  ],
   "craftTime": 40,
   "drawer": {
     "type": "DrawMulti",
@@ -26,7 +28,8 @@
         "suffix": "-glow"
       },
       {
-        "type": "DrawFlame"
+        "type": "DrawFlame",
+        "flameColor": ffef99
       }
     ]
   },
