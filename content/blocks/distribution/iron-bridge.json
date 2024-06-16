@@ -1,0 +1,19 @@
+{
+  "type": "DuctBridge",
+  "localizedName": "Iron Bridge Tube",
+  "description": "Transports items quickly over blocks.",
+  "health": 75,
+  "armor": 0,
+  "researchCostMultiplier": 0.1,
+  "speed": 2.5,
+  "requirements": [
+    "iron/4",
+  ],
+  "category": "distribution",
+  "research": {
+    "parent": "air-tube",
+    "objectives": [
+      
+    ]
+  }
+}
