@@ -21,14 +21,6 @@
   "liquidConsumed": 0.1,
   "shootType": {
     "type": "LaserBulletType",
-    "spawnBullets": [
-      {
-        "type": "LightningBulletType",
-        "lightningColor": ff795e,
-        "lightningLength": 95,
-        "lightningDamage": 20
-      }
-    ],
     "length": 190,
     "colors": [
       c85c5165,
