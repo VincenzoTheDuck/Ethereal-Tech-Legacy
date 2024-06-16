@@ -8,8 +8,8 @@
   "size": 3,
   "isFirstTier": true,
   "requirements": [
-    "steel/2000",
-    "silicon/1500",
+    "steel/1500",
+    "quartz/1500",
   ],
   "unitType": "gamma",
   "category": "effect",
