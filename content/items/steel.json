@@ -2,4 +2,8 @@
   "type": "Item",
   "localizedName": "Steel",
   "description": "A very strong building material.",
+  "planetsHidden": [
+    "erekir",
+    "serpulo"
+  ]
 }
