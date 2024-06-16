@@ -1,0 +1,18 @@
+{
+  "type": "Wall",
+  "localizedName": "Quartz Wall",
+  "description": "Defends structures from enemy projectiles.",
+  "health": 620,
+  "armor": 3,
+  "researchCostMultiplier": 0.05,
+  "requirements": [
+    "quartz/6",
+  ],
+  "category": "walls",
+  "research": {
+    "parent": "iron-wall",
+    "objectives": [
+      "quartz"
+    ]
+  }
+}
