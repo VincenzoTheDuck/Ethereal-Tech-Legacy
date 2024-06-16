@@ -4,6 +4,7 @@
   "description": "Defends structures from enemy projectiles.",
   "health": 14000,
   "armor": 3,
+  "size": 2,
   "researchCostMultiplier": 0.05,
   "requirements": [
     "quartz/24",
