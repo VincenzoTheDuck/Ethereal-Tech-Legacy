@@ -4,6 +4,7 @@
   "description": "Defends structures from enemy projectiles.",
   "health": 1000,
   "armor": 2,
+  "size": 2,
   "researchCostMultiplier": 0.05,
   "requirements": [
     "iron/24",
