@@ -8,7 +8,7 @@
   "requirements": [
     "iron/24",
   ],
-  "category": "walls",
+  "category": "defense",
   "research": {
     "parent": "iron-wall",
     "objectives": [
