@@ -1,0 +1,42 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "Steel Smelter",
+  "description": "Smelts iron and coal into steel.",
+  "health": 900,
+  "armor": 1,
+  "researchCostMultiplier": 0.05,
+  "size": 2,
+  "hasPower": false,
+  "consumes": {
+    "items": [
+      "coal/1",
+      "iron/2"
+    ]
+  },
+  "craftTime": 40,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFade",
+        "suffix": "-glow"
+      },
+      {
+        "type": "DrawFlame"
+      }
+    ]
+  },
+  "requirements": [
+    "iron/75",
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "core-fragment",
+    "objectives": [
+      "canyon"
+    ]
+  }
+}
