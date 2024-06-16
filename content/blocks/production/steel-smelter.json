@@ -17,7 +17,7 @@
     "steel/1"
   ],
   "craftEffect": "smeltsmoke",
-  "updateEffect": "coalSmeltSmoke",
+  "updateEffect": "coalSmeltsmoke",
   "updateEffectChance": 0.03,
   "ambientSound": "smelter",
   "ambientSoundVolume": 0.07,
