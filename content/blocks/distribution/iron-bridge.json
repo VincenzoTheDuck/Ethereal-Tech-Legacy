@@ -6,6 +6,7 @@
   "armor": 0,
   "researchCostMultiplier": 0.1,
   "speed": 2.5,
+  "range": 5,
   "requirements": [
     "iron/4",
   ],
