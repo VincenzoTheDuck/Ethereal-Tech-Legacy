@@ -23,7 +23,24 @@
       "height": 6,
       "splashDamageRadius": 30,
       "splashDamage": 60,
-      "damage": 75
+      "damage": 75,
+      "lightning": 4,
+      "lightningDamage": 22,
+      "lightningLength": 13,
+      "lightningColor": ffcd66,
+      "fragBullet": {
+        "type": "ArtilleryBulletType",
+        "damage": 30,
+        "splashDamage": 20,
+        "splashDamageRadius": 25,
+        "lightning": 2,
+        "lightningDamage": 15,
+        "lightningLength": 8,
+        "lightningColor": ffcd66,
+        "speed": 3,
+        "lifetime": 44
+      },
+      "fragBullets": 5,
       "knockback": 0.6,
       "speed": 4,
       "lifetime": 50,
@@ -39,12 +56,9 @@
         ]
       },
       "smokeEffect": "shootBigSmoke",
-      "hitEffect": "massiveExplosion",
+      "hitEffect": "flakExplosion",
       "trailLength": 15,
-      "trailWidth": 2,
-      "trailColor": 985bb0,
-      "frontColor": f08dd5,
-      "backColor": 985bb0
+      "trailWidth": 2
     }
   },
   "consumes": {
