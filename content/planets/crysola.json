@@ -1,6 +1,7 @@
 {
   "generator": "SerpuloPlanetGenerator",
   "parent": "sun",
+  "localizedName": "Crysola",
   "orbitRadius": 35,
   "hasAtmosphere": true,
   "updateLighting": true,
