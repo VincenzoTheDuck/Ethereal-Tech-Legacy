@@ -28,6 +28,8 @@
       "lightningDamage": 22,
       "lightningLength": 13,
       "lightningColor": ffcd66,
+      "fragLifeMin": 0.27,
+      "fragVelocityMin": 0.65,
       "fragBullet": {
         "type": "ArtilleryBulletType",
         "damage": 30,
