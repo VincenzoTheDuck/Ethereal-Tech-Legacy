@@ -1,0 +1,25 @@
+{
+  "type": "MendProjector",
+  "localizedName": "Iron Mender",
+  "description": "Repairs nearby structures slowly.",
+  "health": 110,
+  "armor": 0,
+  "researchCostMultiplier": 10,
+  "reload": 180,
+  "range": 50,
+  "healPercent": 5,
+  "requirements": [
+    "iron/45",
+    "quartz/30"
+  ],
+  "consumes": {
+    "power": 0.3
+  },
+  "category": "distribution",
+  "research": {
+    "parent": "iron-node",
+    "objectives": [
+      "quartz"
+    ]
+  }
+}
