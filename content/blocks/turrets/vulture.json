@@ -1,5 +1,5 @@
 {
-  "type": "PowerTurret",
+  "type": "ItemTurret",
   "localizedName": "Vulture",
   "description": "Fires long-range charged homing cluster shells at ground enemies. Requires power.",
   "health": 2000,
