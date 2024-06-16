@@ -20,6 +20,7 @@
     "iron": {
       "type": "ArtilleryBulletType",
       "homingPower": 0.11,
+      "homingRange": 20,
       "width": 6,
       "height": 6,
       "splashDamageRadius": 30,
@@ -43,6 +44,7 @@
         "speed": 3,
         "lifetime": 44,
         "homingPower": 0.09
+        "homingRange": 15,
       },
       "fragBullets": 5,
       "knockback": 0.6,
