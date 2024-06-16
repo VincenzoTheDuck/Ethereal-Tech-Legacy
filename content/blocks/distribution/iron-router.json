@@ -1,0 +1,21 @@
+{
+  "type": "DuctRouter",
+  "localizedName": "Iron Router",
+  "description": "Distributes items equally to each side. Can be configured as a sorter..",
+  "health": 65,
+  "regionRotated": 1,
+  "armor": 0,
+  "researchCostMultiplier": 3,
+  "speed": 2.5,
+  "solid": false,
+  "requirements": [
+    "iron/5",
+  ],
+  "category": "distribution",
+  "research": {
+    "parent": "air-tube",
+    "objectives": [
+      
+    ]
+  }
+}
