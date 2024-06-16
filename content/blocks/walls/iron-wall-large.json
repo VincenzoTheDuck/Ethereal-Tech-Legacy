@@ -2,7 +2,7 @@
   "type": "Wall",
   "localizedName": "Large Iron Wall",
   "description": "Defends structures from enemy projectiles.",
-  "health": 450,
+  "health": 1000,
   "armor": 2,
   "researchCostMultiplier": 0.05,
   "requirements": [
