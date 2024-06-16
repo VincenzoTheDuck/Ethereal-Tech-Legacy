@@ -1,0 +1,108 @@
+{
+  "type": "PowerTurret",
+  "localizedName": "Raven",
+  "description": "Charges and fires a powerful laser beam.",
+  "health": 1200,
+  "armor": 2,
+  "reload": 120,
+  "range": 185,
+  "recoil": 1.5,
+  "recoilTime": 150,
+  "researchCostMultiplier": 0.05,
+  "shoot": {
+    "firstShotDelay": 30
+  },
+  "shootY": 15,
+  "shake": 1,
+  "size": 2,
+  "moveWhileCharging": false,
+  "shootSound": "laser",
+  "liquidConsumed": 0.1,
+  "shootType": {
+    "type": "LaserBulletType",
+    "length": 190,
+    "colors": [
+      c85c5165,
+      ff795e20,
+      ffa492,
+      ffffff
+    ],
+    "damage": 95,
+    "hitSize": 1.5,
+    "drawSize": 150,
+    "lifetime": 12,
+    "sideAngle": 40,
+    "hitEffect": {
+      "type": "ParticleEffect",
+      "line": true,
+      "colorFrom": ffa492,
+      "colorTo": c85c5165,
+      "lenFrom": 2,
+      "lenTo": 0,
+      "strokeFrom": 1.3,
+      "strokeTo": 0.7,
+      "lifetime": 45,
+      "cone": 180,
+      "particles": 11,
+      "length": 9
+    },
+    "shootEffect": {
+      "type": "ParticleEffect",
+      "colorFrom": ffa492,
+      "colorTo": c85c5165,
+      "sizeFrom": 6,
+      "sizeTo": 2,
+      "lifetime": 55,
+      "cone": 55,
+      "particles": 11,
+      "length": 7
+    },
+    "chargeEffect": {
+      "type": "MultiEffect",
+      "effects": [
+        {
+          "type": "ParticleEffect",
+          "colorFrom": c85c5165,
+          "colorTo": ffa492,
+          "sizeFrom": 0,
+          "sizeTo": 3,
+          "lifetime": 30,
+          "particles": 1,
+          "length": 0
+        },
+        {
+          "type": "ParticleEffect",
+          "line": true,
+          "colorFrom": ffa492,
+          "colorTo": c85c5165,
+          "interp": "pow3In",
+          "sizeInterp": "pow5Out",
+          "lenFrom": 0,
+          "lenTo": 2.3,
+          "strokeFrom": 0.7,
+          "strokeTo": 1.1
+          "lifetime": 30,
+          "particles": 7,
+          "length": 0
+        }
+      ]
+    },
+  },
+  "consumes": {
+    "power": 5.25,
+    "coolant": {
+      "amount": 0.05
+    }
+  },
+  "requirements": [
+    "steel/85",
+    "ruby/25"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "splinter",
+    "objectives": [
+      "ruby"
+    ]
+  }
+}
