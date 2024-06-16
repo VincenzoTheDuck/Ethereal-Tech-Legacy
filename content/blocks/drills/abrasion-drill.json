@@ -1,0 +1,31 @@
+{
+  "type": "Drill",
+  "localizedName": "Abrasion Drill",
+  "description": "Drills items at a modest rate. Requires power.",
+  "health": 250,
+  "armor": 0,
+  "researchCostMultiplier": 0.05,
+  "tier": 3,
+  "size": 3,
+  "drillTime": 175,
+  "hasPower": true,
+  "drawRim": true,
+  "consumes": {
+    "power": 1.8
+  },
+  "updateEffect": "pulverize",
+  "updateEffectChance": 0.04,
+  "drillEffect": "mineHuge",
+  "liquidBoostIntensity": 0.9,
+  "requirements": [
+    "steel/120",
+    "quartz/95"
+  ],
+  "category": "production",
+  "research": {
+    "parent": "iron-drill",
+    "objectives": [
+      "steel"
+    ]
+  }
+}
