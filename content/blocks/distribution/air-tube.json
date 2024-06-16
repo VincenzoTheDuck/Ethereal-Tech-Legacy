@@ -4,7 +4,7 @@
   "description": "Transports items quickly. Does not accept non-air tube inputs from the side.",
   "health": 50,
   "armor": 0,
-  "researchCostMultiplier": 10,
+  "researchCostMultiplier": 0.1,
   "speed": 2.5,
   "armored": true,
   "requirements": [
