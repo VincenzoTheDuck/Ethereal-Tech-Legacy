@@ -1,0 +1,18 @@
+{
+  "type": "Wall",
+  "localizedName": "Iron Wall",
+  "description": "Defends structures from enemy projectiles.",
+  "health": 450,
+  "armor": 2,
+  "researchCostMultiplier": 0.05,
+  "requirements": [
+    "iron/6",
+  ],
+  "category": "walls",
+  "research": {
+    "parent": "core-fragment",
+    "objectives": [
+      
+    ]
+  }
+}
