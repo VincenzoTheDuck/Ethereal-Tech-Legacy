@@ -44,7 +44,6 @@
         "type": "BasicBulletType",
         "lifetime": 20,
         "speed": 4,
-        "hitEffect": "hitSmall",
         "despawnEffect": "none",
         "despawnHit": true,
         "shootEffect": "shootSmall",
