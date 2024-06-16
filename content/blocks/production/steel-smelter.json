@@ -13,11 +13,7 @@
       "iron/2"
     ]
   },
-  "output": {
-    "items": [
-      "steel/2"
-    ]
-  },
+  "outputItem": "steel/1"
   "craftTime": 40,
   "drawer": {
     "type": "DrawMulti",
