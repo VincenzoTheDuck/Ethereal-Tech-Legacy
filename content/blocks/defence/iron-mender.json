@@ -4,7 +4,7 @@
   "description": "Repairs nearby structures slowly.",
   "health": 110,
   "armor": 0,
-  "researchCostMultiplier": 10,
+  "researchCostMultiplier": 0.1,
   "reload": 180,
   "range": 50,
   "healPercent": 5,
