@@ -1,6 +1,7 @@
 {
   "sector": 11,
   "planet": "crysola",
+  "localizedName": "Canyon",
   "difficulty": 1,
   "overrideLaunchDefaults": true,
   "addStartingItems": true,
