@@ -1,6 +1,6 @@
 {
   "type": "AttributeCrafter",
-  "localizedName": "Boiler [red](WIP)",
+  "localizedName": "Boiler",
   "description": "Boils water into steam. More efficient in hot locations.",
   "health": 1500,
   "armor": 1,
