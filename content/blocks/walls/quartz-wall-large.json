@@ -11,7 +11,7 @@
   ],
   "category": "defense",
   "research": {
-    "parent": "quartz-wall-large",
+    "parent": "quartz-wall",
     "objectives": [
       
     ]
