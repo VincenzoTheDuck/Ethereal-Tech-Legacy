@@ -1,5 +1,5 @@
 {
-  "type": "DuctBridge",
+  "type": "BufferedItemBridge",
   "localizedName": "Iron Bridge Tube",
   "description": "Transports items quickly over blocks.",
   "health": 75,
