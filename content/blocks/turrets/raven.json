@@ -17,7 +17,7 @@
   "shake": 1,
   "size": 2,
   "moveWhileCharging": false,
-  "shootSound": "laser",
+  "shootSound": "energywave",
   "liquidConsumed": 0.1,
   "shootType": {
     "type": "LaserBulletType",
