@@ -129,11 +129,11 @@
     }
   },
   "requirements": [
-    "copper/5000",
-    "silicon/4500",
-    "phase-fabric/5500",
-    "thorium/3500",
-    "surge-alloy/2500",
+    "copper/3500",
+    "silicon/2500",
+    "phase-fabric/1000",
+    "thorium/2200",
+    "surge-alloy/650"
   ],
   "category": "turret",
   "research": {
