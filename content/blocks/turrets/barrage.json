@@ -1,0 +1,112 @@
+{
+  "type": "ItemTurret",
+  "localizedName": "Barrage",
+  "description": "Fires bursts of piercing bullets at enemies.",
+  "health": 1000,
+  "researchCostMultiplier": 0.05,
+  "armor": 0,
+  "reload": 25,
+  "range": 120,
+  "recoil": 2.7,
+  "recoilTime": 35,
+  "inaccuracy": 1,
+  "shootCone": 10,
+  "shootY": 10,
+  "shake": 0.5,
+  "size": 2,
+  "velocityRnd": 0.1,
+  "targetsAir": true,
+  "shootSound": "shootBig",
+  "consumes": {
+    "coolant": {
+      "amount": 0.05
+    }
+  }
+  "shoot": {
+    "shots": 4,
+    "shotDelay": 3
+  },
+  "ammoTypes": {
+    "iron": {
+      "type": "BasicBulletType",
+      "width": 6,
+      "height": 9,
+      "damage": 15,
+      "knockback": 0.6,
+      "pierce": true,
+      "pierceCap": 2,
+      "speed": 6,
+      "lifetime": 20,
+      "shootEffect": "hitLancer",
+      "hitEffect": "hitLancer",
+      "despawnEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          "hitLancer",
+          {
+            "type": "WaveEffect",
+            "lifetime": 12,
+            "sizeFrom": 0,
+            "sizeTo": 10,
+            "strokeFrom": 2,
+            "strokeTo": 0,
+            "colorFrom": ffffff,
+            "colorTo": ffffff
+          }
+        ]
+      },
+      "trailColor": 6e7080,
+      "trailWidth": 3.5,
+      "trailLength": 7,
+      "frontColor": 989aa4,
+      "backColor": 6e7080
+    },
+    "steel": {
+      "type": "BasicBulletType",
+      "width": 6,
+      "height": 9,
+      "damage": 24,
+      "knockback": 0.7,
+      "pierce": true,
+      "pierceCap": 2,
+      "speed": 6,
+      "lifetime": 20,
+      "shootEffect": "hitLancer",
+      "hitEffect": "hitLancer",
+      "despawnEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          "hitLancer",
+          {
+            "type": "WaveEffect",
+            "lifetime": 12,
+            "sizeFrom": 0,
+            "sizeTo": 10,
+            "strokeFrom": 2,
+            "strokeTo": 0,
+            "colorFrom": ffffff,
+            "colorTo": ffffff
+          }
+        ]
+      },
+      "trailColor": 6e7080,
+      "trailWidth": 3.5,
+      "trailLength": 7,
+      "frontColor": 989aa4,
+      "backColor": 6e7080,
+      "reloadMultiplier": 0.83
+    }
+  },
+  "liquidConsumed": 0.1,
+  "requirements": [
+    "steel/75",
+    "aluminum/40"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "splinter",
+    "objectives": [
+      "aluminum"
+    ]
+  }
+}
