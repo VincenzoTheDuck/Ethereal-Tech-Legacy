@@ -2,7 +2,7 @@
   "type": "Wall",
   "localizedName": "Large Quartz Wall",
   "description": "Defends structures from enemy projectiles.",
-  "health": 14000,
+  "health": 1400,
   "armor": 3,
   "size": 2,
   "researchCostMultiplier": 0.05,
