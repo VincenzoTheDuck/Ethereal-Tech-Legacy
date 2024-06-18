@@ -1,0 +1,11 @@
+{
+  "localizedName": "Quarzite",
+  "description": "An extremely hard crystal. Conducts electricity like no other material. Slightly charged and explosive.",
+  "charge": 0.09,
+  "explosiveness": 0.06,
+  "hardness": 4,
+  "hiddenOnPlanets": [
+    "erekir",
+    "serpulo"
+  ]
+}
