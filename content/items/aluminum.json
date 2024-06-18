@@ -1,0 +1,9 @@
+{
+  "localizedName": "Aluminum",
+  "description": "A strong and light building material.",
+  "hardness": 2,
+  "hiddenOnPlanets": [
+    "erekir",
+    "serpulo"
+  ]
+}
