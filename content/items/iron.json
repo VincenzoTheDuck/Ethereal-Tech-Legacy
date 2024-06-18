@@ -1,5 +1,4 @@
 {
-  "type": "Item",
   "localizedName": "Iron",
   "description": "A strong building material. Can be refined into steel.",
   "hardness": 1,
