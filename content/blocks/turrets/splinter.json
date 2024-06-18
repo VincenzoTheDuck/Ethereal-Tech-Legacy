@@ -59,6 +59,39 @@
       "frontColor": 989aa4,
       "backColor": 6e7080
     },
+    "aluminum": {
+      "type": "BasicBulletType",
+      "width": 2.5,
+      "height": 4.5,
+      "damage": 8,
+      "reloadMultiplier": 1.55,
+      "knockback": 0.6,
+      "pierce": true,
+      "pierceCap": 2,
+      "speed": 6,
+      "lifetime": 20,
+      "shootEffect": "hitLancer",
+      "hitEffect": "hitLancer",
+      "despawnEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          "hitLancer",
+          {
+            "type": "WaveEffect",
+            "lifetime": 12,
+            "sizeFrom": 0,
+            "sizeTo": 10,
+            "strokeFrom": 2,
+            "strokeTo": 0,
+            "colorFrom": ffffff,
+            "colorTo": ffffff
+          }
+        ]
+      },
+      "trailEffect": "none",
+      "frontColor": 989aa4,
+      "backColor": 6e7080
+    },
     "quartz": {
       "type": "BasicBulletType",
       "width": 2.5,
