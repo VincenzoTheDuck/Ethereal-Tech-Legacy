@@ -3,7 +3,7 @@
   "localizedName": "Quartz",
   "description": "A common crystal. Used for building and can be refined into silicon.",
   "hardness": 2,
-  "planetsHidden": [
+  "hiddenOnPlanets": [
     "erekir",
     "serpulo"
   ]
