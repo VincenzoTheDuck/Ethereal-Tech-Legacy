@@ -19,13 +19,15 @@
   "liquidBoostIntensity": 0.9,
   "requirements": [
     "steel/120",
-    "quartz/95"
+    "quartz/95",
+    "aluminum/60"
   ],
   "category": "production",
   "research": {
     "parent": "iron-drill",
     "objectives": [
-      "steel"
+      "steel",
+      "aluminum"
     ]
   }
 }
