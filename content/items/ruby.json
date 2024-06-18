@@ -3,7 +3,7 @@
   "localizedName": "Ruby",
   "description": "A rare crystal. Used for building.",
   "hardness": 3,
-  "planetsHidden": [
+  "hiddenOnPlanets": [
     "erekir",
     "serpulo"
   ]
