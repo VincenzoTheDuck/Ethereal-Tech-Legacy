@@ -15,7 +15,6 @@
   "shake": 0.3,
   "size": 2,
   "velocityRnd": 0.1,
-  "targetsAir": false,
   "shootSound": "shootSnap",
   "ammoPerShot": 4,
   "consumes": {
