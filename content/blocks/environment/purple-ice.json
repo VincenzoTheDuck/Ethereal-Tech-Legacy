@@ -3,8 +3,8 @@
   "name": "Purple Ice",
   "dragMultiplier": 0.35,
   "speedMultiplier": 0.9,
-  "attributes": [
-    "water/0.4"
-  ],
+  "attributes": {
+    "water": 0.4
+  },
   "albedo": 0.65
 }
