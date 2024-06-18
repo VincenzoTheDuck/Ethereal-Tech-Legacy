@@ -2,7 +2,7 @@
   "type": "CoreBlock",
   "localizedName": "Core: Fragment",
   "description": "A small, armored core.",
-  "health": 10000,
+  "health": 5000,
   "armor": 5,
   "itemCapacity": 5000
   "size": 3,
