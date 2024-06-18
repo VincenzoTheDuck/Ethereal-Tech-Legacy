@@ -2,6 +2,7 @@
   "sector": 11,
   "planet": "crysola",
   "localizedName": "Canyon",
+  "description": "The enemies use this canyon to transport resources. Intercept them and move on.",
   "difficulty": 1,
   "overrideLaunchDefaults": true,
   "addStartingItems": true,
