@@ -1,0 +1,9 @@
+{
+  "type": "Liquid",
+  "localizedName": "Quarzite Slag",
+  "description": "Molten quarzite mixed with many impurities. Very reactive. Can be refined.",
+  "color": e698ff,
+  "viscosity": 0.5,
+  "lightColor": e698ff,
+  "effect": "melting"
+}
