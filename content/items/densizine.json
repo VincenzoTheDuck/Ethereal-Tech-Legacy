@@ -1,0 +1,8 @@
+{
+  "localizedName": "Densizine",
+  "description": "A very hard alloy.",
+  "hiddenOnPlanets": [
+    "erekir",
+    "serpulo"
+  ]
+}
