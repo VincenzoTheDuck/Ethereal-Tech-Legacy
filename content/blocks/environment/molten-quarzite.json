@@ -10,6 +10,7 @@
   "lightColor": e698ff,
   "cacheLayer": "caustics",
   "speedMultiplier": 0.11,
+  "liquidDrop": "quarzite-slag",
   "attributes": {
     "heat": 1.35
   }
