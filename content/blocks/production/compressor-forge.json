@@ -68,7 +68,7 @@
       {
         "type": "DrawFade",
         "suffix": "-vents",
-        "alpha": 0.75,
+        "alpha": 1,
         "scale": 3.7
       },
     ]
