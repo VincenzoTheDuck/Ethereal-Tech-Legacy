@@ -8,7 +8,7 @@
   "emitLight": true,
   "lightRadius": 55,
   "lightColor": e698ff,
-  "cacheLayer": "slag",
+  "cacheLayer": "caustics",
   "speedMultiplier": 0.11,
   "liquidDrop": "quarzite-slag",
   "attributes": {
