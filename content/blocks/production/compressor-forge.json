@@ -35,7 +35,8 @@
           "length": 16,
           "cone": 45
         },
-        "lengthOffset": 7
+        "lengthOffset": 4,
+        "rotationOffset": 45
       },
       "smeltsmoke"
     ]
