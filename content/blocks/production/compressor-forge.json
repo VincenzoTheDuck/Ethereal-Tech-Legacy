@@ -26,7 +26,7 @@
         "effect": {
           "type": "ParticleEffect",
           "particles": 9,
-          "sizeFrom": 4,
+          "sizeFrom": 2.7,
           "sizeTo": 0,
           "sizeInterp": "pow3In",
           "colorFrom": cb96f0,
@@ -54,7 +54,6 @@
       },
       {
         "type": "DrawParticles",
-        "reverse": true,
         "color": e9a7ff,
         "alpha": 0.65,
         "particles": 20,
@@ -69,8 +68,8 @@
       {
         "type": "DrawFade",
         "suffix": "-vents",
-        "alpha": 0.6,
-        "scale": 5
+        "alpha": 0.75,
+        "scale": 3.7
       },
     ]
   },
