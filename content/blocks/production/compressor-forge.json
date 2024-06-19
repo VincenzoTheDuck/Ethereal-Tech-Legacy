@@ -1,0 +1,90 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "Compressor Forge",
+  "description": "Melts steel, aluminum and quarzite under 5 tons of pressure to make densizine.",
+  "health": 1200,
+  "armor": 1,
+  "researchCostMultiplier": 0.05,
+  "size": 3,
+  "consumes": {
+    "power": 10.5
+    "items": [
+      "steel/5",
+      "aluminum/6",
+      "quarzite/10"
+    ]
+  },
+  "itemCapacity": 25,
+  "outputItems": [
+    "densizine/2"
+  ],
+  "craftEffect": {
+    "type": "MultiEffect",
+    "effects": [
+      {
+        "type": "RadialEffect",
+        "effect": {
+          "type": "ParticleEffect",
+          "particles": 9,
+          "sizeFrom": 4,
+          "sizeTo": 0,
+          "sizeInterp": "pow3In",
+          "colorFrom": cb96f0,
+          "colorTo": 6c6770,
+          "lifetime": 85,
+          "length": 16,
+          "cone": 45
+        },
+        "lengthOffset": 7
+      },
+      "smeltsmoke"
+    ]
+  },
+  "updateEffect": "pulverize",
+  "updateEffectChance": 0.03,
+  "ambientSound": "torch",
+  "ambientSoundVolume": 0.07,
+  "craftTime": 100,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawParticles",
+        "reverse": true,
+        "color": e9a7ff,
+        "alpha": 0.65,
+        "particles": 20,
+        "particleSize": 3,
+        "particleRad": 10,
+        "particleLife": 180,
+        "particleSizeInterp": "circleOut"
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFade",
+        "suffix": "-vents",
+        "alpha": 0.6,
+        "scale": 5
+      },
+    ]
+  },
+  "requirements": [
+    "steel/100",
+    "ruby/90",
+    "aluminum/110",
+    "quarzite/55"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "steel-smelter",
+    "objectives": [
+      "quarzite"
+    ]
+  }
+}
