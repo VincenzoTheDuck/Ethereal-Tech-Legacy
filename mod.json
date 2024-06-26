@@ -1,8 +1,8 @@
 {
-  "displayName": "Vincent's Mindustry Mod",
-  "name": "vincents-mindustry-mod",
+  "displayName": "Ethereal Tech (Legacy)",
+  "name": "ethereal-tech-legacy",
   "author": "VincenzoTheDuck",
-  "description": "A wip mod that adds a bit of stuff",
+  "description": "A mod that adds a bit of stuff. Remaking soon.",
   "minGameVersion": "137",
   "version": "1.0.0"
 }
